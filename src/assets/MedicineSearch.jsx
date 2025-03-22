@@ -41,7 +41,7 @@ function MedicineSearch() {
     try {
       setIsLoading(true);
       const response = await fetch(
-        `http://localhost:5000/api/medicines?page=${page}`
+        `https://aayuveda-hackathon1.onrender.com/api/medicines?page=${page}`
       );
       if (!response.ok) throw new Error("Failed to fetch medicines");
       const data = await response.json();
@@ -61,7 +61,7 @@ function MedicineSearch() {
     try {
       setIsLoading(true);
       const response = await fetch(
-        `http://localhost:5000/api/medicines/search?query=${encodeURIComponent(
+        `http://:5000/api/medicines/search?query=${encodeURIComponent(
           query
         )}&page=${page}`
       );
