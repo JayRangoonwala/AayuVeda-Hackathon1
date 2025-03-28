@@ -98,7 +98,7 @@ const HospitalMap = () => {
             <div className="flex flex-shrink-0 items-center">
               <img src="/logo2.jpg" className="w-14 h-14" />
               <h1 className="text-xl font-bold">
-                Aayu<span className="text-red-700">Veda</span>
+                Aayu<span className="text-red-700">Bot</span>
               </h1>
             </div>
             <nav className="hidden md:block">
@@ -200,7 +200,7 @@ const HospitalMap = () => {
       <footer>
         <div className="border-t border-gray-800 pt-5 pb-5 text-center">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} AayuVeda All rights reserved.
+            &copy; {new Date().getFullYear()} AayuBot All rights reserved.
           </p>
         </div>
       </footer>

@@ -25,7 +25,7 @@ function Header() {
         <div className="flex flex-shrink-0 items-center">
           <img src="/logo2.jpg" className="w-14 h-14" />
           <h1 className="text-xl font-bold">
-            Aayu<span className="text-red-700">Veda</span>
+            Aayu<span className="text-red-700">Bot</span>
           </h1>
         </div>
         <nav className="hidden md:block">
@@ -155,8 +155,8 @@ function Services() {
             <RouterLink to="/about">
               <div className="bg-white shadow-xl p-8 rounded-lg transition-transform hover:-translate-y-2">
                 <div className="text-red-600 text-8xl flex justify-center items-center mb-6">✪</div>
-                <h3 className="text-xl font-semibold mb-4 flex justify-center items-center">About Aayuveda</h3>
-                <p className="text-gray-600 flex justify-center items-center">Learn More about Aayuveda</p>
+                <h3 className="text-xl font-semibold mb-4 flex justify-center items-center">About AayuBot</h3>
+                <p className="text-gray-600 flex justify-center items-center">Learn More about AayuBot</p>
               </div>
             </RouterLink>
             <RouterLink to="/medicine-search">
@@ -213,16 +213,16 @@ function About1() {
               About Our Team
             </h2>
             <p className="text-gray-600 mb-6">
-              At AayuVeda, our team is more than just experts – we are
+              At AayuBot, our team is more than just experts – we are
               passionate healers, innovators, and visionaries dedicated to
-              bringing the power of Ayurveda into your life. With years of
+              bringing the power of AyurBot into your life. With years of
               experience in natural wellness, our specialists combine ancient
               wisdom with modern science to help you achieve balance, vitality,
               and true well-being.
             </p>
 
             <p className="text-gray-600 mb-6">
-              We don’t just promote Ayurveda – we live and breathe it. Get to
+              We don’t just promote AyurBot – we live and breathe it. Get to
               know our team and let us guide you on a journey to better health,
               naturally! 🌱✨
             </p>
@@ -261,7 +261,7 @@ function About1() {
 function Footer() {
   return (
     <footer className="bg-white border-t border-gray-800 pt-2 pb-5 text-center">
-      &copy; {new Date().getFullYear()} AayuVeda All rights reserved.
+      &copy; {new Date().getFullYear()} AayuBot All rights reserved.
     </footer>
   );
 }

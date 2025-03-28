@@ -58,7 +58,7 @@ function MedicineSearch() {
   const fetchMedicines = async (page) => {
     try {
       setIsLoading(true);
-      const response = await fetch(`https://aayuveda-hackathon1.onrender.com/api/medicines?page=${page}`);
+      const response = await fetch(`https://AayuBot-hackathon1.onrender.com/api/medicines?page=${page}`);
       if (!response.ok) throw new Error('Failed to fetch medicines');
       const data = await response.json();
       setMedicines(data.medicines);
@@ -76,7 +76,7 @@ function MedicineSearch() {
   const searchMedicines = async (query, page) => {
     try {
       setIsLoading(true);
-      const response = await fetch(`https://aayuveda-hackathon1.onrender.com/api/medicines/search?query=${encodeURIComponent(query)}&page=${page}`);
+      const response = await fetch(`https://AayuBot-hackathon1.onrender.com/api/medicines/search?query=${encodeURIComponent(query)}&page=${page}`);
       if (!response.ok) throw new Error('Failed to search medicines');
       const data = await response.json();
       setMedicines(data.medicines);
@@ -136,7 +136,7 @@ function MedicineSearch() {
   const fetchAdditionalInfo = async (medicineName) => {
     // Try primary API first
     try {
-      const response = await fetch(`https://aayuveda-hackathon1.onrender.com/api/medicines/details?name=${encodeURIComponent(medicineName)}`);
+      const response = await fetch(`https://AayuBot-hackathon1.onrender.com/api/medicines/details?name=${encodeURIComponent(medicineName)}`);
       if (!response.ok) throw new Error('Primary API failed');
       return await response.json();
     } catch (err) {
@@ -235,7 +235,7 @@ function MedicineSearch() {
               <div className="flex flex-shrink-0 items-center">
                 <img src="/logo2.jpg" className="w-14 h-14" />
                 <h1 className="text-xl font-bold">
-                  Aayu<span className="text-red-700">Veda</span>
+                  Aayu<span className="text-red-700">Bot</span>
                 </h1>
               </div>
               <nav className="hidden md:block">

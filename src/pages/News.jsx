@@ -67,7 +67,7 @@ function News() {
           <div className="flex flex-shrink-0 items-center">
             <img src="/logo2.jpg" className="w-14 h-14" />
             <h1 className="text-xl font-bold">
-              Aayu<span className="text-red-700">Veda</span>
+              Aayu<span className="text-red-700">Bot</span>
             </h1>
           </div>
           <nav className="hidden md:block">
@@ -142,7 +142,7 @@ function News() {
               <Heart className="w-4 h-4 text-red-500 absolute -top-1 -right-1" />
             </div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-red-600 to-red-900 text-transparent bg-clip-text">
-              AayuVeda News
+              AayuBot News
             </h1>
           </div>
 
